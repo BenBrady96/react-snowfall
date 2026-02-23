@@ -1,0 +1,24 @@
+{
+    "name": "react-snowfall",
+    "private": false,
+    "version": "1.0.0",
+    "description": "A gentle snowfall particle effect built with React and CSS animations",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+    },
+    "homepage": "https://BenBrady96.github.io/react-snowfall/",
+    "dependencies": {
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^5.1.1",
+        "gh-pages": "^6.3.0",
+        "vite": "^7.3.1"
+    }
+}

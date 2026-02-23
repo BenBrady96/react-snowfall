@@ -1,0 +1,29 @@
+.snowfall-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    background-color: white;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 5px white);
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-10vh) translateX(-10px);
+    }
+
+    100% {
+        transform: translateY(110vh) translateX(10px);
+    }
+}
